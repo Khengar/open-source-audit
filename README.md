@@ -43,3 +43,17 @@ If you want to test these out on a Fedora or RedHat-based machine:
 1. Clone this repository:
    ```bash
    git clone <repository-url>
+   ```
+2. Move into the script directory:
+   ```bash
+   cd <repository-directory>
+   ```
+
+3. Give the scripts permission to execute::
+   ```bash
+   chmod +x *.sh
+   ```
+4. Run them directly from the terminal:
+   ```bash
+   ./disk_auditor.sh
+   ```
